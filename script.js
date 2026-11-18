@@ -11,29 +11,29 @@ const JOIN_FORM_URL = "https://forms.gle/X8odbpxrQPHJybXz9";// نشانی فرم
 const VIDEOS = [
   {
     id: 1,
-    title: "نمونه آموزش مدارهای الکتریکی",
+    title: " آموزش مدارهای الکتریکی",
     course: "مدارهای الکتریکی",
     instructor: "نام مدرس را وارد کن",
     session: "جلسه ۱",
-    description: "این کارت نمونه است. نشانی ویدئوی واقعی آپارات را جایگزین کن.",
+    description: "",
     embedUrl: ""
   },
   {
     id: 2,
-    title: "نمونه آموزش سیگنال‌ها و سیستم‌ها",
+    title: " آموزش سیگنال‌ها و سیستم‌ها",
     course: "سیگنال‌ها و سیستم‌ها",
     instructor: "نام مدرس را وارد کن",
     session: "جلسه ۱",
-    description: "پس از انتشار ویدئو در آپارات، لینک تعبیه آن را اینجا وارد کن.",
+    description: "",
     embedUrl: ""
   },
   {
     id: 3,
-    title: "نمونه آموزش الکترونیک",
+    title: " آموزش الکترونیک",
     course: "الکترونیک",
     instructor: "نام مدرس را وارد کن",
     session: "جلسه ۱",
-    description: "می‌توانی عنوان، درس، مدرس و توضیحات را به‌دلخواه تغییر بدهی.",
+    description: "",
     embedUrl: ""
   }
 ];
