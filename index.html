@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="هم‌مسیر؛ آموزش‌های دانشجویی انجمن علمی برق شهید ولیان">
+  <title>هم‌مسیر | آموزش در کنار یکدیگر</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="صفحه اصلی هم‌مسیر">
+        
+             <img class="brand-logo" src="images/association-logo.jpg" alt="لوگوی انجمن علمی برق شهید ولیان">
+
+
+        <span>
+          <strong>هم‌مسیر</strong>
+          <small>حل گره‌های درسی، در کنار یکدیگر</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="منوی اصلی">
+        <a href="#home">خانه</a>
+        <a href="#videos">ویدئوهای آموزشی</a>
+        <a href="#about">درباره هم‌مسیر</a>
+        <a href="#join">همکاری با ما</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">آموزش دانشجویی؛ برای همه</span>
+          <h1>یادگیری، وقتی <span>هم‌مسیر</span> می‌شویم آسان‌تر است.</h1>
+          <p>ویدئوهای آموزشی دانشجویان را ببین، درس موردنظرت را پیدا کن و آموخته‌هایت را با دیگران به اشتراک بگذار.</p>
+          <a class="button button-primary" href="#videos">دیدن آموزش‌ها <span aria-hidden="true">←</span></a>
+        </div>
+        <div class="hero-card" aria-label="معرفی طرح">
+          <div class="hero-icon">هم</div>
+          <p class="hero-card-title">دانشجو از دانشجو یاد می‌گیرد</p>
+          <p class="hero-card-text">هر دانسته می‌تواند راهگشای یک نفر باشد.</p>
+          <div class="hero-tags"><span>یادگیری</span><span>همکاری</span><span>پیشرفت</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="videos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">کتابخانه آموزشی</span>
+            <h2>ویدئوهای آموزشی</h2>
+            <p>آموزش موردنظرت را جست‌وجو کن یا درس را انتخاب کن.</p>
+          </div>
+        </div>
+
+        <div class="filters">
+          <label class="search-box">
+            <span class="sr-only">جست‌وجو</span>
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="جست‌وجوی عنوان، درس یا مدرس..." autocomplete="off">
+          </label>
+          <label class="filter-label" for="courseFilter">انتخاب درس</label>
+          <select id="courseFilter">
+            <option value="all">همه درس‌ها</option>
+          </select>
+        </div>
+
+        <p id="resultsCount" class="results-count" aria-live="polite"></p>
+        <div id="videoGrid" class="video-grid"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <strong>آموزشی پیدا نشد.</strong>
+          <p>عبارت جست‌وجو یا فیلتر درس را تغییر بده.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">درباره طرح</span>
+          <h2>هم‌مسیر؛ تجربه‌ای برای یادگیری جمعی</h2>
+        </div>
+        <p>هم‌مسیر بستری برای به‌اشتراک‌گذاشتن آموزش‌های دانشجویی است. هدف ما کمک به یادگیری بهتر، تقویت فرهنگ همکاری علمی و فراهم‌کردن دسترسی عمومی به ویدئوهای آموزشی است.</p>
+      </div>
+    </section>
+
+    <section class="join-section" id="join">
+      <div class="container join-card">
+        <div>
+          <span class="eyebrow">به جمع ما بپیوند</span>
+          <h2>در درسی مهارت داری؟ آموزش بده!</h2>
+          <p>اگر به تدریس علاقه‌مندی، می‌توانی برای همکاری در تولید آموزش‌های هم‌مسیر اعلام آمادگی کنی.</p>
+        </div>
+        <!-- پس از ساخت فرم، نشانی آن را در script.js در متغیر JOIN_FORM_URL قرار بده. -->
+        <a id="joinButton" class="button button-light" href="#join">اعلام آمادگی برای همکاری</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/university-logo.png" alt="لوگوی دانشگاه صدا و سیما"
+             onerror="this.style.display='none'">
+        <div>
+          <strong>هم‌مسیر</strong>
+          <p>انجمن علمی برق شهید ولیان</p>
+        </div>
+      </div>
+      <p>یادگیری را به تجربه‌ای مشترک تبدیل کنیم.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
